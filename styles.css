@@ -508,13 +508,9 @@ hr.rounded {
     list-style:inside square;
 }
 
-.hire-me {
-    padding-top: 45px;
-}
-
 .hire-me-button {
     padding: 15px;
-    margin: 10px 0px 0px 30px;
+    margin: 40px 0px 0px 0px;
     border-radius: 8px;
     border: none;
     font-size: 1.2rem;
@@ -604,7 +600,7 @@ hr.rounded {
 
 .contact-form-button {
     padding: 15px;
-    margin: 10px 0px 0px 30px;
+    margin: 40px 0px 0px 30px;
     border-radius: 8px;
     border: none;
     font-size: 1.2rem;
@@ -627,8 +623,9 @@ hr.rounded {
 .contact-column-3 a {
     color: var(--color-2);
     font-size: 1.4rem;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
+    margin: 0px 30px 0 0px;
 }
 
 .contact-column-3 a:hover {
@@ -669,4 +666,10 @@ hr.rounded {
     .contact-column-3 {
         display: grid;
     }
+}
+
+/* FOOTER */
+footer {
+    padding: 20px;
+    text-align: center;
 }
