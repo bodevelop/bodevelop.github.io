@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- HEAD SECTION -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>@bodevelop</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/baron-neue">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Raleway:wght@500;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script rel="" src="main.js"></script>
+</head>
+<!-- BODY SECTION -->
+<body>
+  <!-- NAVBAR -->
+  <div class="navbar" id="navbar">
+  <div class="nav-centered">
+    <a href="#welcome-section" class="logo"><p>BO<br>DeVelOP</p></a>
+  </div>
+  <div class="nav-left">
+    <a href="#services-section" class="nav-link">Services</a>
+    <a href="#projects" class="nav-link">Portfolio</a>
+  </div>
+  <div class="nav-right">
+    <a href="#contact" class="nav-link">Contacts</a>
+    <a href="#about-section" class="nav-link">About</a>
+  </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  <!-- MAIN -->
+  <main>
+  <!-- Welcome Section -->
+  <section id="welcome-section" class="welcome">
+      <h1 class="hello">@bodevelop</h1>
+      <p class="web-developer">I am Web Developer</p>
+      <a href="#contact" class="contact-me"><button id="submit" type="submit" class="welcome-button">
+          Contact me
+      </button></a>
+      </a>
+  </section>
+  <div class="border-container"></div>
+  <!-- About Section -->
+  <section id="about-section" class="about">
+      <div id="about-section-header" class="about-column-1">
+          <h3>About Me</h3>
+          <h2>I am a front-end developer</h2>
+          <hr class="rounded">
+      </div>
+      <div id="resume" class="about-column-2">
+        <h3 class="skills">My Skills</h3>
+        <ul class="skills-list">
+          <li>Hypertext Markup Language (HTML)</li>
+          <li>Cascading Style Sheet (CSS)</li>
+          <li>JavaScript</li>
+          <li>Responsive/Mobile Design</li>
+          <li>Content Management Systems (CMS)</li>
+          <li>Web Design with Website Builders (e.g., Wix, Webnode)</li>
+          <li>Web Content Writing</li>
+          <li>Search Engine Optimization (SEO)</li>
+        </ul>
+        <h3 class="certifications">My Certifications</h3>
+        <ul class="certifications-list">
+          <li><a href="https://www.freecodecamp.org/certification/bodevelop/responsive-web-design">Responsive Web Design Certification</a></li>
+        </ul>
+        <form id="get-my-resume" class="about-form" action="https://formsubmit.co/bodor.attila@icloud.com" method="POST">
+          <label for="email" id="email-label">
+              <input id="email" name="email" type="email" class="about-form-email" placeholder="Email" required />
+            </label>
+            <button id="submit" type="submit" class="about-form-button">
+              Gey my resume
+            </button>
+        </form>
+      </div>
+  </section>
+  <div class="border-container"></div>
+
+  <!-- Projects Section -->
+  <section id="projects" class="portfolio">
+    <div id="projects-section-header" class="portfolio-column-1">
+        <h3>My Portfolio</h3>
+        <h2>Some of my projects</h2>
+        <hr class="rounded">
+    </div>
+    <div id="most-recent-project" class="portfolio-column-2">
+      <h3>Most recent</h3>
+      <div class="first-project-item">
+        <a class="project-ref" href="https://codepen.io/bodevelop/pen/MWPMRGE" target="_blank">
+          <img class="project-image"
+            src="https://i.postimg.cc/tCcDKFpf/img-bodappedit.png"
+            alt="Restaurant Landing Page"/>
+          <p class="project-tile">Restaurant Landing Page</p>
+        </a>
+      </div>
+    </div>
+    <div id="projects-grid" class="portfolio-column-3">
+        <a class="project-ref" href="https://codepen.io/bodevelop/pen/GRYbLLJ" target="_blank" class="grid-item-1">
+          <img class="project-image"
+            src="https://i.postimg.cc/RCkmQsDp/img-rwd-page.png"
+            alt="Technical Documentation Page"/>
+          <p class="project-tile">Technical Documentation Page</p>
+        </a>
+        <a class="project-ref" href="https://codepen.io/bodevelop/pen/RwezOmN" target="_blank" class="grid-item-2">
+          <img class="project-image"
+            src="https://i.postimg.cc/m2FbvcqD/img-tribute-page.png"
+            alt="Tribute Page"/>
+          <p class="project-tile">Tribute Page</p>
+        </a>
+        <a class="project-ref" href="https://codepen.io/bodevelop/pen/oNarOPV" target="_blank" class="grid-item-3">
+          <img class="project-image"
+            src="https://i.postimg.cc/mZzR9f8F/img-survey-form.png"
+            alt="Survey Form"/>
+          <p class="project-tile">Survey Form</p>
+        </a>
+    </div>
+    <div id="project-button" class="portfolio-column-4">
+        <a href="https://codepen.io/bodevelop" target="_blank" class="project-button"><button id="show-all-projects" type="submit" class="show-all-projects">
+            Show all projects</button></a>
+    </div>
+  </section>
+  <div class="border-container"></div>
+  <!-- Services Section -->
+  <section id="services-section" class="services">
+    <div id="services-section-header" class="services-column-1">
+        <h3>My Services</h3>
+        <h2>Design that speaks, code that does the work</h2>
+        <hr class="rounded">
+    </div>
+    <div id="skills" class="about-column-2">
+      <h3>Some projects I can realize</h3>
+      <ul>
+        <li>Create visually appealing websites with modern elements</li>
+        <li>Design UI/UX websites</li>
+        <li>Administer websites</li>
+        <li>Manage website content</li>
+        <li>Write content for websites</li>
+      </ul>
+      <a href="#hire-me" class="hire-me"><button id="submit" type="submit" class="hire-me-button">
+        Hire me
+    </button></a>
+    </a>
+    </div>
+</section>
+<div class="border-container"></div>
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div id="contact-section-header" class="contact-column-1">
+        <h3>Contact</h3>
+        <h2>Let's work together</h2>
+        <hr class="rounded">
+    </div>
+    <div id="contact-form" class="contact-column-2">
+      <h3>Drop me a message</h3>
+      <form id="contact-me-form" class="contact-me-form" action="https://formsubmit.co/bodor.attila@icloud.com" method="POST">
+        <label for="name" id="name-label">
+          <input id="name" name="name" type="text" placeholder="Name" required />
+        </label>
+        <label for="email" id="email-label">
+            <input id="email" name="email" type="email" placeholder="Email" required />
+          </label>
+          <label for="message" id="message-label">
+            <textarea id="message" name="message" rows="5" placeholder="Message"></textarea>
+          </label>
+          <button id="submit" type="submit" class="contact-form-button">
+            Contact me
+          </button>
+      </form>
+    </div>
+    <div id="contact-links" class="contact-column-3">
+      <a
+        href="https://codepen.io/your-work"
+        target="_blank"
+        class="btn contact-details"
+        ><i class="fa fa-codepen"></i> Codepen</a
+      >
+      <a
+        id="profile-link"
+        href="https://github.com/bodevelop"
+        target="_blank"
+        class="btn contact-details"
+        ><i class="fa fa-github"></i></i> GitHub</a
+      >
+    </div>
+</section>
+<div class="border-container"></div>
+<!-- FOOTER -->
+    <footer>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+
+</html>
